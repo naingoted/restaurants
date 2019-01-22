@@ -1,0 +1,252 @@
+ [
+    {
+      "id": 0,
+      "name": "Osakaya Restaurant",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 9 pm  / Fri-Sat 11:30 am - 9:30 pm"
+    },
+    {
+      "id": 1,
+      "name": "The Stinking Rose",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 10 pm  / Fri-Sat 11:30 am - 11 pm"
+    },
+    {
+      "id": 2,
+      "name": "McCormick & Kuleto's",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 10 pm  / Fri-Sat 11:30 am - 11 pm"
+    },
+    {
+      "id": 3,
+      "name": "Mifune Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 10 pm"
+    },
+    {
+      "id": 4,
+      "name": "The Cheesecake Factory",
+      "operation_hours": "Mon-Thu 11 am - 11 pm  / Fri-Sat 11 am - 12:30 am  / Sun 10 am - 11 pm"
+    },
+    {
+      "id": 5,
+      "name": "New Delhi Indian Restaurant",
+      "operation_hours": "Mon-Sat 11:30 am - 10 pm  / Sun 5:30 pm - 10 pm"
+    },
+    {
+      "id": 6,
+      "name": "Iroha Restaurant",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 9:30 pm  / Fri-Sat 11:30 am - 10 pm"
+    },
+    {
+      "id": 7,
+      "name": "Rose Pistola",
+      "operation_hours": "Mon-Thu 11:30 am - 10 pm  / Fri-Sun 11:30 am - 11 pm"
+    },
+    {
+      "id": 8,
+      "name": "Alioto's Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 11 pm"
+    },
+    {
+      "id": 9,
+      "name": "Canton Seafood & Dim Sum Restaurant",
+      "operation_hours": "Mon-Fri 10:30 am - 9:30 pm  / Sat-Sun 10 am - 9:30 pm"
+    },
+    {
+      "id": 10,
+      "name": "All Season Restaurant",
+      "operation_hours": "Mon-Fri 10 am - 9:30 pm  / Sat-Sun 9:30 am - 9:30 pm"
+    },
+    {
+      "id": 11,
+      "name": "Bombay Indian Restaurant",
+      "operation_hours": "Mon-Sun 11:30 am - 10:30 pm"
+    },
+    {
+      "id": 12,
+      "name": "Sam's Grill & Seafood Restaurant",
+      "operation_hours": "Mon-Fri 11 am - 9 pm  / Sat 5 pm - 9 pm"
+    },
+    {
+      "id": 13,
+      "name": "2G Japanese Brasserie",
+      "operation_hours": "Mon-Thu, Sun 11 am - 10 pm  / Fri-Sat 11 am - 11 pm"
+    },
+    {
+      "id": 14,
+      "name": "Restaurant Lulu",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 9 pm  / Fri-Sat 11:30 am - 10 pm"
+    },
+    {
+      "id": 15,
+      "name": "Sudachi",
+      "operation_hours": "Mon-Wed 5 pm - 12:30 am  / Thu-Fri 5 pm - 1:30 am  / Sat 3 pm - 1:30 am  / Sun 3 pm - 11:30 pm"
+    },
+    {
+      "id": 16,
+      "name": "Hanuri",
+      "operation_hours": "Mon-Sun 11 am - 12 am"
+    },
+    {
+      "id": 17,
+      "name": "Herbivore",
+      "operation_hours": "Mon-Thu, Sun 9 am - 10 pm  / Fri-Sat 9 am - 11 pm"
+    },
+    {
+      "id": 18,
+      "name": "Penang Garden",
+      "operation_hours": "Mon-Thu 11 am - 10 pm  / Fri-Sat 10 am - 10:30 pm  / Sun 11 am - 11 pm"
+    },
+    {
+      "id": 19,
+      "name": "John's Grill",
+      "operation_hours": "Mon-Sat 11 am - 10 pm  / Sun 12 pm - 10 pm"
+    },
+    {
+      "id": 20,
+      "name": "Quan Bac",
+      "operation_hours": "Mon-Sun 11 am - 10 pm"
+    },
+    {
+      "id": 21,
+      "name": "Bamboo Restaurant",
+      "operation_hours": "Mon-Sat 11 am - 12 am  / Sun 12 pm - 12 am"
+    },
+    {
+      "id": 22,
+      "name": "Burger Bar",
+      "operation_hours": "Mon-Thu, Sun 11 am - 10 pm  / Fri-Sat 11 am - 12 am"
+    },
+    {
+      "id": 23,
+      "name": "Blu Restaurant",
+      "operation_hours": "Mon-Fri 11:30 am - 10 pm  / Sat-Sun 7 am - 3 pm"
+    },
+    {
+      "id": 24,
+      "name": "Naan 'N' Curry",
+      "operation_hours": "Mon-Sun 11 am - 4 am"
+    },
+    {
+      "id": 25,
+      "name": "Shanghai China Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 9:30 pm"
+    },
+    {
+      "id": 26,
+      "name": "Tres",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 10 pm  / Fri-Sat 11:30 am - 11 pm"
+    },
+    {
+      "id": 27,
+      "name": "Isobune Sushi",
+      "operation_hours": "Mon-Sun 11:30 am - 9:30 pm"
+    },
+    {
+      "id": 28,
+      "name": "Viva Pizza Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 12 am"
+    },
+    {
+      "id": 29,
+      "name": "Far East Cafe",
+      "operation_hours": "Mon-Sun 11:30 am - 10 pm"
+    },
+    {
+      "id": 30,
+      "name": "Parallel 37",
+      "operation_hours": "Mon-Sun 11:30 am - 10 pm"
+    },
+    {
+      "id": 31,
+      "name": "Bai Thong Thai Cuisine",
+      "operation_hours": "Mon-Sat 11 am - 11 pm  / Sun 11 am - 10 pm"
+    },
+    {
+      "id": 32,
+      "name": "Alhamra",
+      "operation_hours": "Mon-Sun 11 am - 11 pm"
+    },
+    {
+      "id": 33,
+      "name": "A-1 Cafe Restaurant",
+      "operation_hours": "Mon, Wed-Sun 11 am - 10 pm"
+    },
+    {
+      "id": 34,
+      "name": "Nick's Lighthouse",
+      "operation_hours": "Mon-Sun 11 am - 10:30 pm"
+    },
+    {
+      "id": 35,
+      "name": "Paragon Restaurant & Bar",
+      "operation_hours": "Mon-Fri 11:30 am - 10 pm  / Sat 5:30 pm - 10 pm"
+    },
+    {
+      "id": 36,
+      "name": "Chili Lemon Garlic",
+      "operation_hours": "Mon-Fri 11 am - 10 pm  / Sat-Sun 5 pm - 10 pm"
+    },
+    {
+      "id": 37,
+      "name": "Bow Hon Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 10:30 pm"
+    },
+    {
+      "id": 38,
+      "name": "San Dong House",
+      "operation_hours": "Mon-Sun 11 am - 11 pm"
+    },
+    {
+      "id": 39,
+      "name": "Thai Stick Restaurant",
+      "operation_hours": "Mon-Sun 11 am - 1 am"
+    },
+    {
+      "id": 40,
+      "name": "Cesario's",
+      "operation_hours": "Mon-Thu, Sun 11:30 am - 10 pm  / Fri-Sat 11:30 am - 10:30 pm"
+    },
+    {
+      "id": 41,
+      "name": "Colombini Italian Cafe Bistro",
+      "operation_hours": "Mon-Fri 12 pm - 10 pm  / Sat-Sun 5 pm - 10 pm"
+    },
+    {
+      "id": 42,
+      "name": "Sabella & La Torre",
+      "operation_hours": "Mon-Thu, Sun 10 am - 10:30 pm  / Fri-Sat 10 am - 12:30 am"
+    },
+    {
+      "id": 43,
+      "name": "Soluna Cafe and Lounge",
+      "operation_hours": "Mon-Fri 11:30 am - 10 pm  / Sat 5 pm - 10 pm"
+    },
+    {
+      "id": 44,
+      "name": "Tong Palace",
+      "operation_hours": "Mon-Fri 9 am - 9:30 pm  / Sat-Sun 9 am - 10 pm"
+    },
+    {
+      "id": 45,
+      "name": "India Garden Restaurant",
+      "operation_hours": "Mon-Sun 10 am - 11 pm"
+    },
+    {
+      "id": 46,
+      "name": "Sapporo-Ya Japanese Restaurant",
+      "operation_hours": "Mon-Sat 11 am - 11 pm  / Sun 11 am - 10:30 pm"
+    },
+    {
+      "id": 47,
+      "name": "Santorini's Mediterranean Cuisine",
+      "operation_hours": "Mon-Sun 8 am - 10:30 pm"
+    },
+    {
+      "id": 48,
+      "name": "Kyoto Sushi",
+      "operation_hours": "Mon-Thu 11 am - 10:30 pm  / Fri 11 am - 11 pm  / Sat 11:30 am - 11 pm  / Sun 4:30 pm - 10:30 pm"
+    },
+    {
+      "id": 49,
+      "name": "Marrakech Moroccan Restaurant",
+      "operation_hours": "Mon-Sun 5:30 pm - 2 am"
+    }
+   ]
