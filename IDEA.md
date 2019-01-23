@@ -18,6 +18,11 @@ only show user's/ collaborator's own collections.
 
 
 search - myreads / go to
+search will be on top of restaurants, by default search will display all the rest, then on change will update the state inside restaurant list and rendered matched one 
+on screen.
+
+
+
 
 context - split into restaurants/ collections / users
 

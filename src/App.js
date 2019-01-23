@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Restaurants from './components/Restaurants/Restaurants';
+import Index from './components/Layout/Index';
 import Collections from './components/Collections/Collections';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
         <Switch>
           <Route path="/collections" component={Collections} />
-          <Route path="/" exact component={Restaurants} />
+          <Route path="/" exact component={Index} />
         </Switch>
         </div>
       </Provider>

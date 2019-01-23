@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import Restaurant from './Restaurant/Restaurant';
+
 import { Consumer } from '../../context';
 
 export default class Restaurants extends Component {
   render() {
     return (
-        <Consumer>
+        <Consumer>     
             {
                 value => {
                     const { restaurant_list, heading } = value;
+                    console.log(restaurant_list);
                     if (restaurant_list === undefined || restaurant_list.length === 0) {
                         return <> Loading ...</>;
-                    } else {
+                    }
+                    else {
                         return (
                             <>
                                 <h3 className="title">{heading}</h3>

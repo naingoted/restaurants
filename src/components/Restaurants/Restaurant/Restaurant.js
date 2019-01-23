@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import RestaurantBtn from './RestaurantBtn/RestaurantBtn'
+import React, { Component } from 'react';
+// import RestaurantBtn from './RestaurantBtn/RestaurantBtn';
 export default class Restaurant extends Component {
   render() {
     const {restaurant} = this.props; 
