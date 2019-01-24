@@ -13,18 +13,25 @@ function searchingFor(term) {
 const reducer = (state, action) => {
     switch (action.type) {
         case 'SEARCH_RESTAURANTS':
-            state.search_list = state.restaurant_list;
-            const result = state.search_list.filter(searchingFor(action.payload));
+            const result = state.restaurant_list.filter(searchingFor(action.payload));
+            console.log(action.payload.length + ' payload');
+            console.log(result);
+            console.log(state.restaurant_list);
+            const payload = action.payload.length > 0 ? true : false;
             if(result.length === 0 ) {
+                console.log("default")
                 return {
                     ...state,
-                    restaurant_list : state.restaurant_list,
+                    result_list : result,
+                    payload : payload,
                     heading: 'No Result found'
                 }
             }  else {
+                console.log("search results");
                 return {
                     ...state,
-                    restaurant_list : result,
+                    payload : payload,
+                    result_list : result,
                     heading: 'Search result(s)'
                 }
             }
@@ -37,8 +44,7 @@ const reducer = (state, action) => {
 export class Provider extends Component {
   state = {
       restaurant_list: [],
-      collection_list: [],
-      search_list: [],
+      result_list: [],
       heading: 'List of Restaurants',
       dispatch: action => this.setState(state => reducer(state, action))
   }

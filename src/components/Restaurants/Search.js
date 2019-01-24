@@ -13,8 +13,12 @@ export default class Search extends Component {
             payload: this.state.restaurant_title
         })
     }
-    onChange = e => {
+    onChange = (dispatch,e) => {
     this.setState({ [e.target.name]: e.target.value });
+    dispatch({
+        type: 'SEARCH_RESTAURANTS',
+        payload: this.state.restaurant_title
+    })
     };
     render() {
 
@@ -32,7 +36,7 @@ export default class Search extends Component {
                                     placeholder="title..."
                                     name="restaurant_title"
                                     value={this.state.restaurant_title}
-                                    onChange={this.onChange}
+                                    onChange={this.onChange.bind(this, dispatch)}
                                 />
                                 </div>
                                 <button

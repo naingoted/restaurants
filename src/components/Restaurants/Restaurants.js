@@ -9,17 +9,22 @@ export default class Restaurants extends Component {
         <Consumer>     
             {
                 value => {
-                    const { restaurant_list, heading } = value;
-                    console.log(restaurant_list);
-                    if (restaurant_list === undefined || restaurant_list.length === 0) {
+                    
+                    const { result_list, restaurant_list, heading, payload } = value;
+                    let list = payload ? result_list : restaurant_list;
+                    if (list === undefined || list.length === 0) {
+                        if(payload) {
+                            return <h3 className="title">{heading}</h3>
+                        } else {
                         return <> Loading ...</>;
+                        }
                     }
                     else {
                         return (
                             <>
                                 <h3 className="title">{heading}</h3>
                                 {
-                                    restaurant_list.map( item => (
+                                    list.map( item => (
                                         <Restaurant key={item.id} restaurant ={item} />
                                     ))
                                 }

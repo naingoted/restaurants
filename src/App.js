@@ -9,14 +9,12 @@ import {Provider} from './context';
 class App extends Component {
   render() {
     return (
-      <Provider>
         <div className="App">
         <Switch>
           <Route path="/collections" component={Collections} />
           <Route path="/" exact component={Index} />
         </Switch>
         </div>
-      </Provider>
     );
   }
 }
