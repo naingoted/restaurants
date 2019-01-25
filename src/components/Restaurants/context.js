@@ -19,20 +19,18 @@ const reducer = (state, action) => {
             console.log(state.restaurant_list);
             const payload = action.payload.length > 0 ? true : false;
             if(result.length === 0 ) {
-                console.log("default")
                 return {
                     ...state,
                     result_list : result,
                     payload : payload,
-                    heading: 'No Result found'
+                    new_heading: 'No Result found'
                 }
             }  else {
-                console.log("search results");
                 return {
                     ...state,
                     payload : payload,
                     result_list : result,
-                    heading: 'Search result(s)'
+                    new_heading: 'Search result(s)'
                 }
             }
 

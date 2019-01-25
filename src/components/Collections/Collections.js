@@ -4,7 +4,6 @@ export default class Collections extends Component {
   render() {
     return (
       <div>
-        Thi is collection page
       </div>
     )
   }

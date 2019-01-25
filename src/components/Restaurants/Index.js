@@ -1,7 +1,7 @@
 import React from 'react';
-import Search from '../Restaurants/Search';
-import Restaurants from '../Restaurants/Restaurants';
-import {Provider} from '../../context';
+import Search from './Search';
+import Restaurants from './Restaurants';
+import {Provider} from './context';
 
 
 const Index = () => {

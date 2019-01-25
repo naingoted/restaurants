@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Index from './components/Layout/Index';
+import Index from './components/Restaurants/Index';
 import Collections from './components/Collections/Collections';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-
-import {Provider} from './context';
 
 class App extends Component {
   render() {

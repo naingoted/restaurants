@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Consumer } from '../../context';
+import { Consumer } from './context';
 
 
 export default class Search extends Component {
@@ -15,10 +15,10 @@ export default class Search extends Component {
     }
     onChange = (dispatch,e) => {
     this.setState({ [e.target.name]: e.target.value });
-    dispatch({
-        type: 'SEARCH_RESTAURANTS',
-        payload: this.state.restaurant_title
-    })
+    // dispatch({
+    //     type: 'SEARCH_RESTAURANTS',
+    //     payload: this.state.restaurant_title
+    // })
     };
     render() {
 

@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import Restaurant from './Restaurant/Restaurant';
 
-import { Consumer } from '../../context';
+import { Provider, Consumer } from './context';
 
 export default class Restaurants extends Component {
+    static contextType = Provider;
+    componentDidMount() {
+        console.log(this.context);
+    }
   render() {
+    console.log(this.context);
     return (
         <Consumer>     
             {
